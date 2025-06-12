@@ -1,0 +1,146 @@
+/* Colour Pallete
+
+Flamingo = #F45C2C
+Background = #636363
+Background 4 input = #443C44
+
+Shit 4 Dan
+#C2BAA2
+#262B27
+#767144
+#645C5C
+*/
+
+
+/* Global
+------------------------------------------*/
+body {
+    background-color: #636363;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    /* position: relative; */
+
+}
+
+.wrapper {
+    /* background-color: white; */
+    position: relative;
+    /* top: 150px; */
+}
+
+
+.text_block {
+    position: absolute;
+    background-color: rgba(186, 214, 223, 0.8);
+    top: 0px;
+    width: 650px;
+    height: 1000px;
+}
+
+
+h1 {
+    color: #573524;
+    margin: 0px 20px;
+    font-size: 38px;
+}
+
+
+h2 {
+    color: #573524;
+    margin: 0px 20px 10px;
+    font-size: 20px;
+}
+
+
+h3 {
+    color: #636363;
+    margin: 0px 20px 10px;
+    font-size: 12px;
+}
+
+
+label {
+    color: #8B7C68;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 20px;
+}
+
+
+input {
+    color: #DFC3BA;
+    border: 2px solid #97C1CF;
+    background-color: rgba(151, 193, 207, 0.8);
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+
+textarea {
+    color: #244657;
+    width: 100%;
+    height: 150px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 2px solid #97C1CF;
+    border-radius: 4px;
+    background-color: rgba(151, 193, 207, 0.8);
+    font-size: 16px;
+    resize: none;
+    border-bottom: 1px solid black;
+  }
+
+
+  textarea:focus {
+    outline: none;
+  }
+
+select {
+    color: #244657;
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    border: 2px solid #97C1CF;
+    border-radius: 4px;
+    background-color: rgba(151, 193, 207, 0.8);
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+/* input.Tool_Description {
+    color: #B4A48C;
+    color: #F4C02C;
+    font-size: 16px;
+    border: none;
+    border-color: none;
+    background-color: rgba(186, 214, 223, 0);
+}
+
+
+.Tool_Description:focus {
+    outline: none;
+} */
+
+
+button {
+    background-color: #383F3F;
+    color: white;
+    padding: 10px 20px;
+    margin: 15px;
+}
+
+
+/* Logo
+------------------------------------------*/
+.logo{
+    position: relative;
+    width:150px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+

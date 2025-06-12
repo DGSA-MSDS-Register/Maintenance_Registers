@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <base target="_top">
+    <title>ALU-PM5-02</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/stylesAllu.css">
+    <script src="formHandler.js" defer></script>
+  </head>
+
+  <body>
+    <div class="blue-strip"></div>
+    <div class = "wrapper">
+        <div class = "topWrapper">
+          <img src = "Images/dgsa-logo.png" class = "logo" width = "180" height = "90">
+          <picture>
+            <source srcset="Images/AlluArm.png" media="(max-width: 480px)" width = 180 height = "90">
+            <source srcset="Images/AlluArm.png" media="(max-width: 570px)" width = 270 height = "135" >
+            <img src="Images/AlluArm.PNG" class = "equipment" width = 360 height = "180">
+          </picture>
+        <div>
+      
+
+        <div class = "text_block">
+          <!-- <img src = "Images/dgsa-logo.png" class = "logo" width = "180" height = "90">
+          <img src = "Images/Allu_Arm.PNG" class = "equipment" width = 360 height = "180"> -->
+          <h1>Allu Mixing Arm</h1>
+          <h2>S/N: ALU-PM5-02</h2>
+          <form 
+            class="ajax-form" 
+            data-action="https://script.google.com/macros/s/AKfycbxo2991HTxxXzozq1OVjlvW5pIKRuuCCz1RcCAt3CcFGLsvg7CdBXoARpxyu5q1gqFrjA/exec" data-redirect="thank-you.html">
+
+                <label for = "Person">Person Attending<span>*</span></label> <br>
+                <input name="Person" type="text" required> <br>
+
+                <label for = "Hrs" >Hours Worked On Equipment<span>*</span></label> <br>
+                <input name="Hrs" type="number" step=".01" required><br>
+
+                <label for = "Location">Location<span>*</span></label> <br>
+                <input name="Location" type="text" required><br>
+
+                <label for = "Description">Description of Work Carried Out<span>*</span></label>
+                <textarea name = "Description" placeholder="..." required></textarea>
+                    
+              <button type="submit">Submit</button>
+
+            <h3><span>*</span>indicates required field</h3>
+
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
